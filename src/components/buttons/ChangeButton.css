@@ -1,0 +1,51 @@
+.change-btn {
+    display: inline;
+    height: 46px;
+    width: 123px;
+    border: 0;
+    background: #062D3E;
+    border-radius: 123px/46px;
+}
+
+.change-btn:hover {
+    background: rgba(6, 45, 62, 0.9)
+}
+
+.change-btn:active {
+    background: rgba(237, 92, 1, 1)
+}
+
+.arrow-1 {
+    cursor: pointer;
+    width: 80px;
+    margin: 20px;
+}
+.arrow-1-div {
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: white;
+    margin: 0 auto;
+}
+.arrow-1-div::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: -3px;
+    right: -2px;
+    border-radius: 1px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+.arrow-1-div::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    top: 3px;
+    right: -2px;
+    border-radius: 1px;
+    background-color: white;
+    transform: rotate(-45deg);
+}

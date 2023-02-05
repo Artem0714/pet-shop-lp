@@ -1,0 +1,91 @@
+.mainpage {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mainpage__img {
+    margin-left: 2%;
+    margin-bottom: 25px;
+}
+
+.mainpage_curve_arrow {
+    width: 63px;
+    height: 48px;
+    transform: matrix(1, -0.06, -0.06, 1, 0, 0);
+}
+
+.mainpage__firsttext {
+    position: relative;
+    top: -5px;
+    margin: 0.5%;
+    vertical-align: top;
+    display: inline;
+    color: rgba(24, 156, 171, 1);
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+}
+
+.mainpage__text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 194px;
+}
+
+.mainpage__text1, .mainpage__text2 {
+font-family: 'Josefin Sans';
+font-style: normal;
+/* font-weight: 700; */
+font-size: 96px;
+line-height: 92px;
+letter-spacing: -0.05em;
+text-transform: uppercase;
+/* color: #062D3E; */
+}
+
+.mainpage__text1 {
+    font-weight: 700;
+    color: #062D3E;
+}
+
+.mainpage__text2 {
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+    font-weight: 400;
+    color: #ED5C01;
+}
+
+.mainpage__text2 img {
+    position: absolute;
+    right: -20%;
+    top: -110%;
+}
+
+.mainpage__learnmore {
+    line-height: 0;
+    margin-top: 40px;
+    width: 29%;
+    height: 70px;
+    border: none;
+    border-radius: 247px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    color: rgba(252, 239, 226, 1);
+    background-color: rgba(237, 92, 1);
+}
+
+.mainpage__learnmore:hover {
+    background-color: rgba(237, 92, 1, 0.9)
+}
+
+.mainpage__learnmore:active {
+    background-color: rgba(6, 45, 62, 1)
+}

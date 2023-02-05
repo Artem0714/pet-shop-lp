@@ -1,0 +1,31 @@
+.background {
+    position: absolute;
+    width: 1440px;
+    z-index: -1;
+}
+
+.background__mainpage {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bg_mp_blue_block {
+    width: 27%;
+    height: 805px;
+    background-color:rgba(6, 45, 62, 1);
+    position: relative;
+}
+
+.bg_mp_brush_stroke {
+    position: absolute;
+    top: 7%;
+}
+
+.bg_mp_blue_rock_gr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    left: 5%;
+}

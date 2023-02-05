@@ -1,11 +1,17 @@
-import './App.css';
+import { Background } from "./components/background/Background";
+import { MainPage } from "./components/MainPage";
+import { Navbar } from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <p className='test'>Hello</p>
-      <p className='test2'>Hello</p>
-    </div>
+    <>
+      <Background />
+      <div className="container">
+        <Navbar />
+        <MainPage />
+      </div>
+    </>
+
   );
 }
 
