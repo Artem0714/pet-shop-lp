@@ -1,21 +1,22 @@
 import React from "react";
 import './Background.css';
-import brushStroke from "../../UI/img/brush_stroke_for_mainpage.svg";
-import backgroundBlueRock1 from "../../UI/img/background_mainpage1.svg";
-import backgroundBlueRock2 from "../../UI/img/background_mainpage2.svg";
+import { BackgroundMainPage } from "./BackgroundMainPage";
+import star from "../../UI/img/star.svg";
+import yellowCups from "../../UI/img/yellow_cups_group.svg";
+import { BackgroundOurService } from "./BackgroundOurService";
+import { BackgroundMakingPet } from "./BackgroundMakingPet";
+import { BackgroundCustumetReviews } from "./BackgroundCustumetReviews";
+import { BackgroundTail } from "./BackgroundTail";
+
 
 export const Background = () => {
     return(
         <div className="background">
-            <div className="background__mainpage">
-                <div className="bg_mp_blue_rock_gr">
-                    <img src={backgroundBlueRock1} alt="Background" />
-                    <img src={backgroundBlueRock2} alt="Background" />
-                </div>
-                <div className="bg_mp_blue_block">
-                    <img className="bg_mp_brush_stroke" src={brushStroke} alt="Background" />
-                </div>
-            </div>
+            <BackgroundMainPage />
+            <BackgroundOurService />
+            <BackgroundMakingPet />
+            <BackgroundCustumetReviews />
+            <BackgroundTail />
         </div>
     )
 }

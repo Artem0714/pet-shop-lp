@@ -17,6 +17,12 @@
     position: relative;
 }
 
+@media (max-width: 1250px) {
+    .bg_mp_blue_block {
+        width: 20%;
+    }
+}
+
 .bg_mp_brush_stroke {
     position: absolute;
     top: 7%;
@@ -31,8 +37,78 @@
     left: 5%;
 }
 
-@media (max-width: 1250px) {
-    .bg_mp_blue_block {
-        width: 20%;
-    }
+.bg-our-service {
+    height: 1160px;
 }
+
+.bg-our-service-orange {
+    height: 300px;
+    width: 100%;
+    background-color: rgba(237, 92, 1, 1);
+}
+
+.bg-our-service-orange img {
+    position: relative;
+    top: 15px;
+}
+
+
+.bg-our-service-pictures {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 15px;
+    position: relative;
+}
+
+.bg-making-pet {
+    background-color: rgba(24, 156, 171, 1);
+    height: 760px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bg-mp-pic-footprint-predator {
+    align-self: flex-end;
+    bottom: 25px;
+    position: relative;
+}
+
+.bg-custumer-reviews {
+    height: 1000px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bg-tail-first-level {
+    height: 325px;
+    width: 100%;
+    display: flex;
+}
+
+.bg-t-fl-yellow {
+    width: 50%;
+    background-color: rgba(251, 189, 8, 1);
+}
+
+.bg-t-fl-orange {
+    width: 50%;
+    background-color: rgba(237, 92, 1, 1);
+}
+
+.bg-tail-second-level {
+    height: 265px;
+    width: 100%;
+    background-color: rgba(6, 45, 62, 1);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.bg-tail-second-level img {
+    position: relative;
+    right: 10%;
+}
+
