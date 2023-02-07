@@ -8,7 +8,6 @@
 
 .logo {
     width: 9.5%;
-    /* height: 38px; */
     font-family: 'Josefin Sans';
     font-style: normal;
     font-weight: 600;
@@ -16,15 +15,16 @@
     line-height: 21px;
     letter-spacing: 0.01em;
     color: #062D3E;
+    white-space: nowrap;
 }
 
 .sign-up-box {
     width: 12.6%;
     transform: translate(0, 21px);
+    z-index: 2;
 }
 
 .sign-up-box-bt {
-    /* transform: translate(0, 21px); */
     width: 100%;
     height: 62px;
     border: 2px solid #ffffff;
@@ -36,7 +36,7 @@
     letter-spacing: 0.05em;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.0);
-    z-index: 2;
+    
 }
 
 .sign-up-box:hover {
@@ -105,4 +105,11 @@
 
 .about button:active { 
     color: #000000;
+}
+
+
+@media (max-width: 1200px) {
+    .navbar {
+        width: 50%;
+    }
 }

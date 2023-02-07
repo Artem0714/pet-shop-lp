@@ -1,6 +1,6 @@
 .background {
     position: absolute;
-    width: 1440px;
+    width: 100%;
     z-index: -1;
 }
 
@@ -20,6 +20,7 @@
 .bg_mp_brush_stroke {
     position: absolute;
     top: 7%;
+    right: 0%;
 }
 
 .bg_mp_blue_rock_gr {
@@ -28,4 +29,10 @@
     justify-content: space-between;
     position: relative;
     left: 5%;
+}
+
+@media (max-width: 1250px) {
+    .bg_mp_blue_block {
+        width: 20%;
+    }
 }

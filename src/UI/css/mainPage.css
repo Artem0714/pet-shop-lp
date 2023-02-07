@@ -39,12 +39,10 @@
 .mainpage__text1, .mainpage__text2 {
 font-family: 'Josefin Sans';
 font-style: normal;
-/* font-weight: 700; */
-font-size: 96px;
 line-height: 92px;
+font-size: 96px;
 letter-spacing: -0.05em;
 text-transform: uppercase;
-/* color: #062D3E; */
 }
 
 .mainpage__text1 {
@@ -88,4 +86,22 @@ text-transform: uppercase;
 
 .mainpage__learnmore:active {
     background-color: rgba(6, 45, 62, 1)
+}
+
+@media (max-width: 1380px) {
+    .mainpage__text1, .mainpage__text2 {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .mainpage__text1, .mainpage__text2 {
+        font-size: 72px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .mainpage__text2 img {
+        display: none;
+    }
 }
