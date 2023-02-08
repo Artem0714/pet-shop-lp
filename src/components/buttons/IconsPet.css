@@ -1,0 +1,46 @@
+.icon-pet {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0px;
+    color: #FFFFFF;
+    width: 125px;
+    height: 95px;
+    transition: 1s;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-pet:hover {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 205px;
+    margin: 0 auto;
+}
+
+.icon-pet:hover p {
+    white-space: nowrap;
+    font-size: 28px;
+    width: 100%;
+    text-align: center;
+}
+
+.icon-pet img{
+    height: 95px;
+    width: 95px;
+    filter: brightness(60%);
+}
+
+.icon-pet:hover img {
+    margin-top: 10px;
+    height: 175px;
+    width: 175px;
+    filter: brightness(100%);
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+}
+

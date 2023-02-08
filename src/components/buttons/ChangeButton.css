@@ -5,6 +5,7 @@
     border: 0;
     background: #062D3E;
     border-radius: 123px/46px;
+    padding: 0;
 }
 
 .change-btn:hover {

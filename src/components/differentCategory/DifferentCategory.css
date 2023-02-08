@@ -1,0 +1,199 @@
+.yellow-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1
+}
+  
+.yc-around {
+    --step-deg: 16.75deg;
+    --height-element: 111.5px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+    width: 155px;
+    transform: translate(25%, 50%);
+}
+  
+.yc-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background-color: #FBBD08;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 81px;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    color: #062D3E;
+    transform: translate(0, 35px);
+}
+  
+.char1 {
+    transform: rotate(calc(-8*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char2 { 
+    transform: rotate(calc(-7*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char3 { 
+    transform: rotate(calc(-6*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char4 { 
+    transform: rotate(calc(-5*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char5 { 
+    transform: rotate(calc(-4*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char6 { 
+    transform: rotate(calc(-3*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char7 { 
+    transform: rotate(calc(-2*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char8 { 
+    transform: rotate(calc(-1*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char9 { 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char10 {  
+    transform: rotate(calc(1*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char11 { 
+    transform: rotate(calc(2*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char12 { 
+    transform: rotate(calc(3*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char13 { 
+    transform: rotate(calc(4*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char14 { 
+    transform: rotate(calc(5*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char15 { 
+    transform: rotate(calc(6*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char16 { 
+    transform: rotate(calc(7*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char17 { 
+    transform: rotate(calc(8*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}
+  
+.char18 { 
+    transform: rotate(calc(9*var(--step-deg))); 
+    height: var(--height-element);
+    position: absolute;
+    width: 20px;
+    transform-origin: bottom center;
+    left: 18.7%;
+}

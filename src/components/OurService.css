@@ -1,0 +1,88 @@
+.our-service {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.our-service h1 {
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 38px;
+    letter-spacing: 0.06em;
+    color: #062D3E;
+}
+
+.os-specialist {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 66px; 
+    width: 540px;
+    background-color: rgba(251, 189, 8, 1);
+    padding: 35px;
+    margin-top: 50px;
+}
+
+.os-spec-circle-divece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 111px;
+    width: 111px;
+    border-radius: 50%;
+    background: rgba(235, 227, 204, 1);
+}
+
+.os-specialist-description {
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    color: rgba(6, 45, 62, 1);
+    margin-top: 35px;
+}
+
+.os-specialist-description h2 {
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.os-specialist-description p {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+}
+
+.os-specialist-btn {
+    display: flex;
+}
+
+.os-specialist-btn button{
+    padding: 0;
+    border: 0;
+    width: 143px;
+    height: 62px;
+    background: rgba(6, 45, 62, 1);
+    border-radius: 190px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.09em;
+    color: #EBE3CC;
+    margin-top: 40px;
+}
+
+.os-specialist-btn:hover button{
+    background: rgba(16, 78, 105, 1)
+}
+
+.os-specialist-btn:active button{
+    background: rgba(237, 92, 1, 1)
+}
+
+.os-slider-btn {
+    align-self: flex-end;
+}
