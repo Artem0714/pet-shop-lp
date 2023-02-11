@@ -19,7 +19,12 @@
     align-self: flex-end;
 }
 
-.os-block-specialists {
+.os-carousel {
+    width: 540px;
+    /* overflow: hidden; */
+}
+
+.carousel {
     display: flex;
-    width: 200%;
+    transition: 1s;
 }
