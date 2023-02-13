@@ -17,11 +17,11 @@
 
 .os-slider-btn {
     align-self: flex-end;
+    margin-top: 30px;
 }
 
 .os-carousel {
     width: 540px;
-    /* overflow: hidden; */
 }
 
 .carousel {

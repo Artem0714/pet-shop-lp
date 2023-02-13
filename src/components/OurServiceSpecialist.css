@@ -1,7 +1,8 @@
 .os-specialist {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    align-items: flex-start;
+    justify-content: space-between;
     border-radius: 66px;
     padding: 35px;
     margin-top: 50px;
@@ -15,7 +16,7 @@
     height: 111px;
     width: 111px;
     border-radius: 50%;
-    background: rgba(235, 227, 204, 1);
+    background: rgba(251, 189, 8, 1);
 }
 
 .os-specialist-description {
@@ -39,28 +40,51 @@
 
 .os-specialist-btn {
     display: flex;
+    margin-top: 40px;
 }
 
-.os-specialist-btn button{
+.class-name-for-primary-button{
+    background-color: rgba(0, 0, 0, 0.0);
     padding: 0;
-    border: 0;
+    border: 2px solid rgba(34, 68, 83, 1);
     width: 143px;
     height: 62px;
-    background: rgba(6, 45, 62, 1);
     border-radius: 190px;
     font-family: 'Neue Montreal';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.09em;
-    color: #EBE3CC;
-    margin-top: 40px;
+    color: rgba(34, 68, 83, 1);
 }
 
-.os-specialist-btn:hover button{
-    background: rgba(16, 78, 105, 1)
+.class-name-for-primary-button:hover {
+    background-color: rgba(34, 68, 83, 0.2);
 }
 
-.os-specialist-btn:active button{
-    background: rgba(237, 92, 1, 1)
+.class-name-for-primary-button:active {
+    background-color: rgba(24, 156, 171, 1)
+}
+
+.class-name-for-secondary-button{
+    background-color: rgba(6, 45, 62, 1);
+    padding: 0;
+    border: 0;
+    width: 143px;
+    height: 62px;
+    border-radius: 190px;
+    font-family: 'Neue Montreal';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.09em;
+    color: rgba(235, 227, 204, 1);
+}
+
+.class-name-for-secondary-button:hover {
+    background-color: rgba(6, 45, 62, 0.8);
+}
+
+.class-name-for-secondary-button:active {
+    background-color: rgba(24, 156, 171, 1)
 }

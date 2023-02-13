@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+  overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -96,6 +97,7 @@ table {
 .container {
   max-width: 77%;
   margin: 0 auto;
+
 }
 
 .orange-line {

@@ -10,12 +10,19 @@ import device3 from "../UI/img/device3.svg";
 const specialists = [
     {id: 1, img: device1, title: 'Pharmacy', content: 'Apoquel is an oral tablet that works differently than other allergy medications. It goes straight to the source to help relieve itch and inflammation at its core—addressing the underlying cause of irritation.'},
     {id: 2, img: device2, title: 'Breed-specific Haircuts', content: 'Apoquel is an oral tablet that works differently than other allergy medications. It goes straight to the source to help relieve itch and inflammation at its core—addressing the underlying cause of irritation.'},
-    {id: 3, img: device3, title: 'Cloths', content: "Is your dog at the top of his/her fashion game? Don't forget a dog bikini or swim trunks for your pet's next vacation! Whether poolside, at the beach, or on the yacht, your pooch will look summer-ready."}
+    {id: 3, img: device3, title: 'Cloths', content: "Is your dog at the top of his/her fashion game? Don't forget a dog bikini or swim trunks for your pet's next vacation! Whether poolside, at the beach, or on the yacht, your pooch will look summer-ready."},
+    {id: 4, img: device1, title: 'Breed-specific Haircuts', content: 'Apoquel is an oral tablet that works differently than other allergy medications. It goes straight to the source to help relieve itch and inflammation at its core—addressing the underlying cause of irritation.'},
 ];
+
+
 
 export const OurService = (props) => {
     const [offset, setOffset] = useState(0);
-    const [count, setCount] =useState(0);
+    const [count, setCount] = useState(0);
+
+    const specialist = specialists.map((specialist) => {
+        return( <OurServiceSpecialist key={specialist.id} obj={specialist}/>)
+    })
 
     const handleLeftArrowClick = () => {
         setCount((currentCount)=> {
@@ -24,8 +31,6 @@ export const OurService = (props) => {
             } 
             return currentCount
         })
-        
-
         setOffset((currentOffset) => {
             return Math.max(currentOffset - 570, 0)
         })
@@ -33,20 +38,17 @@ export const OurService = (props) => {
 
     const handleRightArrowClick = () => {
         setCount((currentCount)=> {
-            if (currentCount < 2) {
+            if (currentCount < (specialists.length-1)) {
                 return (currentCount + 1)
             }
             return currentCount
         })
-        
         setOffset((currentOffset) => {
             const maxOffset = 570*(specialists.length-1)
             return Math.min(currentOffset + 570, maxOffset)
         })
     }
-
-    console.log(count);
-
+    
     return(
         <div className="our-service">
             <div className="os-titel">
@@ -54,9 +56,7 @@ export const OurService = (props) => {
             </div>
             <div className="os-carousel">
                 <Carousel size={offset} count={count}>
-                    <OurServiceSpecialist specialist={specialists[0]}/>
-                    <OurServiceSpecialist specialist={specialists[1]}/>
-                    <OurServiceSpecialist specialist={specialists[2]}/>
+                    {specialist}
                 </Carousel>
             </div>
             <div className="os-slider-btn">
