@@ -3,8 +3,8 @@ import { IconsPetBlock } from "./components/IconsPetBlock";
 import { MainPage } from "./components/MainPage";
 import { Navbar } from "./components/Navbar";
 import { DifferentCategory } from "./components/differentCategory/DifferentCategory";
-import { ChangeButton } from "./components/buttons/ChangeButton";
 import { OurService } from "./components/OurService";
+import { ThirdPage } from "./components/ThirdPage";
 
 function App() {
   return (
@@ -18,6 +18,7 @@ function App() {
           <IconsPetBlock />
         </div>
         <OurService />
+        <ThirdPage />
       </div>
     </>
 
