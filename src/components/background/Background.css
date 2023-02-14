@@ -82,6 +82,13 @@
     flex-direction: row-reverse;
 }
 
+.bg-custumer-text-p {
+    width: 50%;
+    transform: translateX(240px);
+    padding-left: 4.5%;
+    align-self: center;
+}
+
 .bg-tail-first-level {
     height: 325px;
     width: 100%;
@@ -94,6 +101,9 @@
 }
 
 .bg-t-fl-orange {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     width: 50%;
     background-color: rgba(237, 92, 1, 1);
 }

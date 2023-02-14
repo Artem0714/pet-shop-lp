@@ -9,7 +9,6 @@ export const Carousel = (props) => {
 
     const pages = Children.map(props.children, (child, index) => {
         if (props.count === index) {
-            console.log(child);
             return cloneElement( child, {
                 style: {
                     maxWidth: "540px",

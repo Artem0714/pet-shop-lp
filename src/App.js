@@ -5,6 +5,7 @@ import { Navbar } from "./components/Navbar";
 import { DifferentCategory } from "./components/differentCategory/DifferentCategory";
 import { OurService } from "./components/OurService";
 import { ThirdPage } from "./components/ThirdPage";
+import { FourthPage } from "./components/FourthPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </div>
         <OurService />
         <ThirdPage />
+        <FourthPage />
       </div>
     </>
 

@@ -37,7 +37,7 @@ export const OurService = (props) => {
     }
 
     const handleRightArrowClick = () => {
-        setCount((currentCount)=> {
+        setCount((currentCount) => {
             if (currentCount < (specialists.length-1)) {
                 return (currentCount + 1)
             }
